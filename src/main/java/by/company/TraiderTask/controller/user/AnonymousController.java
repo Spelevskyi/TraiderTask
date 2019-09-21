@@ -1,14 +1,14 @@
-package mvc.controllers.user;
+package by.company.TraiderTask.controller.user;
 
-import mvc.dao.CommentRepository;
-import mvc.dao.GameObjectRepository;
-import mvc.dao.PostRepository;
-import mvc.dao.UserRepository;
-import mvc.models.Comment;
-import mvc.models.GameObject;
-import mvc.models.Post;
-import mvc.models.User;
-import mvc.util.RantingComparator;
+import by.company.TraiderTask.dao.CommentRepository;
+import by.company.TraiderTask.dao.PostRepository;
+import by.company.TraiderTask.dao.UserRepository;
+import by.company.TraiderTask.model.Comment;
+import by.company.TraiderTask.model.Post;
+import by.company.TraiderTask.dao.GameObjectRepository;
+import by.company.TraiderTask.model.GameObject;
+import by.company.TraiderTask.model.User;
+import by.company.TraiderTask.util.RantingComparator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

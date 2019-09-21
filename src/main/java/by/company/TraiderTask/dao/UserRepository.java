@@ -1,10 +1,9 @@
-package mvc.dao;
+package by.company.TraiderTask.dao;
 
-import mvc.models.User;
+import by.company.TraiderTask.model.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import javax.swing.text.html.Option;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;

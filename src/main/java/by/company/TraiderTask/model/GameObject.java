@@ -1,8 +1,7 @@
-package mvc.models;
+package by.company.TraiderTask.model;
 
 
-import mvc.enums.Role;
-import mvc.enums.Status;
+import by.company.TraiderTask.enums.Status;
 
 import javax.persistence.*;
 import java.sql.Date;

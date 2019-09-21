@@ -1,6 +1,6 @@
-package mvc.util;
+package by.company.TraiderTask.util;
 
-import mvc.models.Post;
+import by.company.TraiderTask.model.Post;
 
 import java.util.Comparator;
 

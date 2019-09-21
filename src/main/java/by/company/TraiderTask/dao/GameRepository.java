@@ -1,11 +1,9 @@
-package mvc.dao;
+package by.company.TraiderTask.dao;
 
-import mvc.models.Game;
-import mvc.models.User;
+import by.company.TraiderTask.model.Game;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.transaction.Transactional;
-import javax.validation.constraints.Max;
 import java.util.List;
 
 

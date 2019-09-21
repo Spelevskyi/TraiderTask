@@ -1,11 +1,9 @@
-package mvc.models;
+package by.company.TraiderTask.model;
 
-import mvc.enums.Role;
+import by.company.TraiderTask.enums.Role;
 
 import javax.persistence.*;
 import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
 @Table(name="users")

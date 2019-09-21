@@ -1,9 +1,11 @@
-package mvc.controllers.user;
+package by.company.TraiderTask.controller.user;
 
 
-import mvc.dao.*;
-import mvc.enums.Status;
-import mvc.models.*;
+import by.company.TraiderTask.dao.*;
+import by.company.TraiderTask.model.Comment;
+import by.company.TraiderTask.model.Game;
+import by.company.TraiderTask.model.GameObject;
+import by.company.TraiderTask.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.transaction.Transactional;
 import javax.validation.Valid;
-import java.sql.Date;
 import java.util.List;
 
 @Transactional

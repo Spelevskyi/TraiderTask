@@ -1,4 +1,4 @@
-package mvc.models;
+package by.company.TraiderTask.model;
 
 import javax.persistence.*;
 

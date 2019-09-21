@@ -1,6 +1,6 @@
-package mvc.dao;
+package by.company.TraiderTask.dao;
 
-import mvc.models.Post;
+import by.company.TraiderTask.model.Post;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

@@ -1,8 +1,8 @@
-package mvc.controllers;
+package by.company.TraiderTask.controller;
 
-import mvc.dao.UserRepository;
-import mvc.enums.Role;
-import mvc.models.User;
+import by.company.TraiderTask.dao.UserRepository;
+import by.company.TraiderTask.enums.Role;
+import by.company.TraiderTask.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
