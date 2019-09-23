@@ -23,8 +23,6 @@ public class LoginController {
 
     @PostMapping
     public String login(@Valid @ModelAttribute("user") User user,Model model) {
-        System.out.println(user.getFirstName());
-
         User logged = userRepository.findByPasswordAndEmail(user.getPassword(),user.getEmail());
         model.addAttribute("firstName",logged.getFirstName());
         model.addAttribute("lastName",logged.getLastName());
